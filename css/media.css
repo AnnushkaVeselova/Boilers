@@ -1,0 +1,358 @@
+/*mobil*/
+@media (max-width: 992px) {
+  .container {
+    padding: 0 70px;
+  }
+
+  /*2строчки бургера*/
+  .header__burger-btn {
+    display: block;
+    margin-top: 29px;
+    z-index: 3;
+  }
+  .menu {
+    position: absolute;
+    left: -400px;
+    top: 0;
+    width: 400px;
+    background-color: #73c1f2;
+    padding-top: 76px;
+    transition: transform 0.3s ease-in-out;
+    -webkit-transition: transform 0.3s ease-in-out;
+    -moz-transition: transform 0.3s ease-in-out;
+    -ms-transition: transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
+  }
+  .menu__list {
+    display: block;
+    padding-left: 76px;
+    padding-right: 76px;
+  }
+
+  .header-info__link {
+    display: none;
+  }
+
+  .header-info__link-1 {
+    display: flex;
+    margin-top: 29px;
+  }
+
+  .header-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .header-info__logo {
+    display: none;
+  }
+  .header-info__title {
+    display: block;
+    margin-bottom: 23px;
+    margin-top: 23px;
+  }
+
+  .header-info {
+    border-bottom: transparent;
+  }
+
+  .header-info-border {
+    display: block;
+  }
+
+  .header-info__place,
+  .header-info__time,
+  .header-info__contact,
+  .header-info__mail {
+    display: flex;
+    /*justify-content: space-between;*/
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 23px;
+  }
+
+  .header-info__place-svg,
+  .header-info__time-svg,
+  .header-info__contact-svg,
+  .header-info__mail-svg {
+    margin-right: 13px;
+  }
+
+  .header-info__place-text,
+  .header-info__time-item,
+  .header-info__contact-item,
+  .header-info__mail-text {
+    max-width: 209px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+  }
+
+  .header-info__place-text,
+  .header-info__mail-text {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .header-info__time-list {
+    text-align: left;
+  }
+
+  .navigation__item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .header.open .menu {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+  }
+
+  .container-2 {
+    max-width: 327px;
+  }
+  .title-h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+
+  .addnavigation {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    margin-bottom: 240px;
+  }
+
+  .addnavigation button:first-child {
+    margin-right: 0;
+    margin-bottom: 18px;
+  }
+
+  .addnavigation-top {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 34px;
+  }
+  .addnavigation-top-item {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 41px;
+    color: #fff;
+  }
+
+  .addnavigation-top-svg svg {
+    width: 30px;
+    height: 30px;
+    margin-top: 40px;
+    margin-bottom: 9px;
+  }
+
+  .banner {
+    margin-top: -146px;
+    margin-bottom: 31px;
+  }
+
+  .banner__block-background {
+    max-width: 413px;
+  }
+
+  .banner__block {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .catalog-gasboiler .title-h2 {
+    margin-bottom: 36px;
+  }
+
+  .swiper-container {
+    width: 432px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .swiper2 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .swiper-pagination {
+    display: block;
+   /* padding-right: 110px;*/
+  }
+
+  .catalog__item {
+    flex-direction: column;
+    border: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+
+  .catalog__item-img {
+    border-radius: 30px 30px 0 0;
+    -webkit-border-radius: 30px 30px 0 0;
+    -moz-border-radius: 30px 30px 0 0;
+    -ms-border-radius: 30px 30px 0 0;
+    -o-border-radius: 30px 30px 0 0;
+  }
+
+  .catalog__item-info {
+    max-width: 280px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right: none;
+    border-bottom: 1px solid #606060;
+  }
+
+  .catalog__item-info .title-h2 {
+    margin-bottom: 10px;
+  }
+
+  .info-price {
+    position: static;
+  }
+
+  .info-text {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .catalog__item-contact {
+    padding: 10px 25px 19px 25px;
+   /* justify-content: center;*/
+  }
+
+  .item-contact-text {
+    width: 240px;
+  }
+
+  .consultation .container {
+    padding: 0;
+  }
+
+  .consultation__block {
+    height: 380px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+
+  .consultation__block-info {
+    display: block;
+    margin-top: 71px;
+    margin-right: 35px;
+    margin-left: 35px;
+    margin-bottom: 92px;
+    text-align: center;
+  }
+
+  .consultation__block-info .title-h2 {
+    text-align: center;
+    margin-bottom: 18px;
+  }
+
+  .consultation__block-info button {
+    margin: 0 auto;
+  }
+
+  .details-background {
+    background-image: none;
+    box-shadow: none;
+  }
+
+  .details-background .container {
+    padding: 0 40px;
+  }
+
+  .details__container h2 {
+    margin-bottom: 30px;
+    color: #606060;
+  }
+  .details__block {
+    display: none;
+  }
+  .details__block-1 {
+    display: block;
+    margin-bottom: 39px;
+  }
+
+  .details__item-1 h3 {
+    color: #606060;
+  }
+
+  .details__item-1 {
+    max-width: 240px;
+    margin-bottom: 10px;
+  }
+
+  .details__container .swiper-container {
+    width: 432px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .footer__container {
+    flex-direction: column;
+    text-align: center;
+    align-items: start;
+  }
+
+  .footer-info__logo {
+    display: none;
+  }
+
+  .footer-info__title {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 122%; /* 39.04px */
+    text-transform: uppercase;
+    color: #606060;
+  }
+
+  footer .container {
+    padding: 0;
+  }
+
+  .footer__block-contact {
+    max-width: 304px;
+    padding-left: 70px;
+    margin-bottom: 30px;
+  }
+
+  .footer__block-map {
+    width: 100%;
+    min-width: 432px;
+    max-width: 932px;
+    border: transparent;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+}
