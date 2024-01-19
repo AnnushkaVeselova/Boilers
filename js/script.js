@@ -38,7 +38,7 @@
   /*слайдер*/
 
   const Swiper1 = new Swiper('.swiper1', {
-   /* direction: 'horizontal',*/
+    direction: 'horizontal',
     slidesPerView: 4,
     spaceBetween: 70,
     loop: true,
@@ -49,7 +49,7 @@
     },
     breakpoints: {
       992: {
-        slidesPerView: 1,
+        slidesPerView: 2,
         spaceBetween: 28,
       }
     }
@@ -67,7 +67,7 @@
      },
      breakpoints: {
       992: {
-        slidesPerView: 1,
+        slidesPerView: 2,
         spaceBetween: 28,
       }
     }
