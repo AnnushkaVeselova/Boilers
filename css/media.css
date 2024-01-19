@@ -124,7 +124,9 @@
 
   .container-2 {
     max-width: 327px;
+    margin: 0;
   }
+
   .title-h1 {
     font-size: 40px;
     font-weight: 700;
