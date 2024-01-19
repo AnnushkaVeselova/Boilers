@@ -23,6 +23,7 @@
     -ms-transition: transform 0.3s ease-in-out;
     -o-transition: transform 0.3s ease-in-out;
   }
+
   .menu__list {
     display: block;
     padding-left: 76px;
@@ -346,7 +347,7 @@
 
   .footer__block-map {
     width: 100%;
-    min-width: 432px;
+    min-width: 320px;
     max-width: 932px;
     border: transparent;
     border-radius: 0;
