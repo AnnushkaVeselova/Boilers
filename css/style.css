@@ -826,8 +826,8 @@ a {
 .swiper-container {
   position: relative;
   width: 100%;
-  width: 1240px;
-  /* height: 250px;*/
+ /*width: 1240px;*/
+ /*   height: 250px;*/
   box-sizing: border-box;
   overflow: hidden;
   padding-left: 25px;

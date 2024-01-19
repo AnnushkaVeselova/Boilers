@@ -4,7 +4,7 @@
     padding: 0 70px;
   }
 
-  /*2строчки бургера*/
+  /*строчки бургера*/
   .header__burger-btn {
     display: block;
     margin-top: 29px;
@@ -181,7 +181,7 @@
   }
 
   .swiper-container {
-    width: 432px;
+   /* width: 432px;*/
     padding-left: 0;
     padding-right: 0;
   }
